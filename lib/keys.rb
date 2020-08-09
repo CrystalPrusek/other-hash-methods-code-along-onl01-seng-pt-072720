@@ -1,4 +1,4 @@
-require 'pry'
+
 
 #This is the groceries hash we'll be passing in to the get_the_keys method
 # groceries = {
@@ -8,3 +8,8 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+def get_the_keys(groceries)
+  groceries.keys
+end
+
+get_the_keys(groceries)
